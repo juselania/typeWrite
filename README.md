@@ -38,7 +38,16 @@ $ git clone https://github.com/jucelania/happy-nlw3
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-## 🙌 Agradecimentosgit www.instagram.com/jullydeveloper/) 
+## 🙌 Agradecimentos
+
+- [Time da RocketSeat](https://rocketseat.com.br/)
+- [Mayk Brito, instrutor da Rocketseat](https://github.com/maykbrito)
+- [Diego Fernandes, CTO e Instrutor da Rocketseat](https://github.com/diego3g)
+
+
+<h1 align="center">
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/jucel%C3%A2nia-silva-56a375197/) [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/jullydeveloper/) 
 </h1>
 
 
