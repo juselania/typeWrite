@@ -1,0 +1,78 @@
+#page-orphanages {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+aside {
+  width: clamp(24rem, 25vw, 44rem);
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  padding: clamp(3rem, 5vw, 8rem); /* soma das caixas (conteudo + caixa)*/
+
+  display: flex;
+  flex-direction: column; /*alinha os elementos em coluna*/
+  justify-content: space-between;
+}
+/*img animation*/
+.orphanages-img {
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  /*Animação da imagem */
+  @keyframes flash {
+    0% {
+    }
+    50% {
+      padding: 20px 25px;
+    }
+    100% {
+    }
+  } 
+  
+aside h2{
+    margin-top: 6.4rem;
+    font: 800 clamp(2rem, 5vw, 3.6rem)/1.1 'Nunito', sans-serif;
+
+}
+aside p{
+    margin-top: 2.4rem;
+    font: 400 1.6rem/1.5 'Nunito', sans-serif;
+}
+aside footer{
+    margin-top: .8rem;
+}
+
+/*button*/
+a.create-orphatanage{
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+
+    width: 6.4rem;
+    height: 6.4rem;
+    background: #15C3D6;
+    border: 0;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 200ms;
+}
+
+a.create-orphatanage:hover{
+    background: #17D6EB;
+}
+
+
+
+
+
+
+
+
+
+

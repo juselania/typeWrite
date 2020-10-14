@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: initial;
+}
+
 #page-landing {
   background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
 
@@ -9,13 +15,40 @@
 
 #container {
   margin: auto;
-  width: 90%;
+  width: min(90%, 112rem);
 }
 
 .location,
 h1,
 .visit p {
   height: 16vh;
+}
+/* Efeiro maquina de escrever */
+
+h1::after{
+  opacity: 1;
+  content: '|';
+  margin-left: 5px;
+  animation: pisca .9s infinite;
+}
+
+.visit p::after{
+    opacity: 1;
+    content: '|';
+    margin-left: 5px;
+    animation: pisca .9s infinite;
+  } /**/
+  
+
+.location{
+    animation-delay: 100ms;
+}
+main h1{
+    font-size: clamp(4rem, 8vw, 8.4rem);
+    animation-delay: 150ms;
+}
+.visit p{
+    animation-delay: 200ms;
 }
 
 .visit a {
@@ -28,27 +61,86 @@ h1,
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+
+  animation-delay: 250ms;
 
   transition: 2ms;
+
+animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
-.visit a:hover{
-    background: #96feff;
-}
+
+/*Animação da imagem */
+@keyframes flash {
+  0% {
+    background: #ffd666;
+  }
+  50% {
+    background: #d5a817;
+    padding: 12px 15px;
+  }
+  100% {
+    background: #ffd666;
+    
+  }
+} 
 
 #logo{
     animation-delay: 50ms;
 }
-.location{
-    animation-delay: 100ms;
+
+    
+/* desktop version */
+@media (min-width: 760px){
+
+  #container{
+    padding: 5rem 2rem;
+    /*shorthand background: image repeat position / size */
+    background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
+ 
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; /* o jusify-content é aplicado qnd se tem um display:flex ou um grid */
+  }
+  .location, h1, .visit p{
+    height: initial;
+    text-align: initial;
+  }
+  .location{
+    text-align: right;
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+    main  h1{
+      font-weight: bold;
+      line-height: .88;/*altura da linha*/
+      text-shadow: 0px 0px 10px #ffd666;
+      cursor: pointer;
+      
+
+      margin: clamp(10%, 9vh, 12%) 0  4rem;
+      width:  min(300px, 80%);
+  }
+  .visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .visit p{
+    font-size: 2.4rem;
+    line-height: 1.5;
+    width: clamp(20rem, 20vw, 30rem);
+
+    text-shadow: 0px 0px 5px #ffd666;
+    cursor: pointer;
+  }
+  .visit a{
+    margin: initial;
+  }
 }
-main h1{
-    animation-delay: 150ms;
-}
-.visit p{
-    animation-delay: 200ms;
-}
-.visit a{
-    animation-delay: 220ms;
-}
+
