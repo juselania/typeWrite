@@ -40,15 +40,22 @@ aside p{
     margin-top: 2.4rem;
     font: 400 1.6rem/1.5 'Nunito', sans-serif;
 }
-aside footer{
+aside footer p{
     margin-top: .8rem;
 }
 
+#mapid{
+    width: 100%;
+    height: 100%;
+}
+
 /*button*/
-a.create-orphatanage{
+a.create-orphanage{
     position: absolute;
     right: 4rem;
     bottom: 4rem;
+
+    z-index:1000;
 
     width: 6.4rem;
     height: 6.4rem;
@@ -63,16 +70,57 @@ a.create-orphatanage{
     transition: background-color 200ms;
 }
 
-a.create-orphatanage:hover{
+a.create-orphanage:hover{
     background: #17D6EB;
 }
 
+/*icon */
+.leaflet-popup-content-wrapper{
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    
+    width:269px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+}
 
+.leaflet-popup-content{
+    color: #0089A5;
+    font: 800 2rem/1 'Nunito', sans-serif;
+    margin: .8rem 1.2rem;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+    
+}
 
+.leaflet-popup-content a{
+  width: 3rem;
+  height: 3rem;
+  background-color: #15C3D6;
+  box-shadow: 17.2828px 27.65px 41.48px rgba(23,142,166,0.16);/*sombreado*/
+  border-radius: 12px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .2s;
+}
 
+.leaflet-popup-content a:hover{
+  background-color: #17D6EB;
+}
 
+.leaflet-popup-tip{
+  display: none;
+}
 
-
-
+.leaflet-container{
+  font: 700 2rem/1 'Nunito', sans-serif;
+  
+ }
 
