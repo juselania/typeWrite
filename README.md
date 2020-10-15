@@ -1,11 +1,12 @@
 
 <h1 align="center">
 
+## Previw
 ### Home
-  <img src="./github/home.png" alt="home">
+  <img src="./github/home-page.gif" alt="Home" width="80%" heigth="100%">
 
 ### Mapa de orfanatos
-  <img src="./github/mapa.png" alt="Mapa"> 
+  <img src="./github/orphanages.gif" alt="Mapa Orfanatos" width="50%" heigth="50%"> 
 </h1>
 
 ## 💬 Sobre o projeto 
@@ -14,9 +15,9 @@ Esta aplicação feita especialmente para o dia das crianças, com o objetivo de
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- HTML5
-- CSS3
-- JavaScript
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)<br>
+[CSS3](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/O_que_e_CSS) <br>
+[JavaScript](https://exercism.io/my/tracks/javascript)
 
 ### 🎲 Pré-requisitos
 
