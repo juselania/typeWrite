@@ -3,10 +3,10 @@
 
 ## Previw
 ### Home
-  <img src="./github/home-page.gif" alt="Home" width="80%" heigth="100%">
+  <img src="./github/home-page.gif" alt="Home" width="80%" heigth="100%" align="center">
 
 ### Mapa de orfanatos
-  <img src="./github/orphanages.gif" alt="Mapa Orfanatos" width="50%" heigth="50%"> 
+  <img src="./github/orphanages.gif" alt="Mapa Orfanatos" width="50%" heigth="50%" align="center"> 
 </h1>
 
 ## 💬 Sobre o projeto 
@@ -23,7 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git-Bash](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como _VSCode_
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/download)
 
 ### 🚀 Rodando a aplicação web (Front End)
 
