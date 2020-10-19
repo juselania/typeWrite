@@ -1,4 +1,3 @@
-# typeWrite
-🚀
+### TypeWrite 
 
-Teste maquina de escrever JavaScript 
+Testando maquina de escrever JavaScript 
