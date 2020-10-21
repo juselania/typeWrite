@@ -1,3 +1,3 @@
 ### TypeWrite 
 
-Testando maquina de escrever JavaScript 
+Testing JavaScript writing machine
